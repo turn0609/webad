@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'Golo Variable';
+	src: url("../fonts/golos-text_vf.ttf");
+	font-weight: 400 700;
+}
+
+
+.ad {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	height: 160px;
+	width: 600px;
+	background: url("../images/mr_nightlight.jpg");
+	border: black 2px solid;
+}
+
+.mr_nightlight {
+	position: absolute;
+	background: url("../images/mr_nightlight.jpg");
+}
+
+
+.producttitle {
+	font-family: "Golo Var";
+	font-size: 40px;
+	letter-spacing: .4px;
+	font-weight: 600;
+	
+	position: relative;
+	left: 50%;
+	top: 10px;
+	
+	color: red;
+}
+
+
+.tagline {
+	font-family: "Golo var";
+	font-size: 20px;
+	letter-spacing: .2px;
+	font-weight: 450;
+	text-align: center;
+	width: 300px;
+
+	position: relative;
+	left: 45%;
+	top: 20px;
+
+	color: black;
+}
+
+
+.calltoaction {
+	width: 300px;
+	height: 40px;
+	background-color: red;
+	border: solid black 2px;
+
+	position: relative;
+	left: 46%;
+	top: 30px;
+	transition: 0.5s;
+}
+
+
+.calltoaction:hover {
+	background-color: black;
+	transition: 0.5s;
+}
+
+
+.buynow {
+	font-family: "Golor var";
+	font-weight: 600;
+	font-size: 30px;
+	letter-spacing: .5px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
+	position: absolute;
+	padding: 5px;
+	height: 40px;
+	width: 300px;
+}
+
