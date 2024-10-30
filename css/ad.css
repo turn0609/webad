@@ -31,7 +31,6 @@
 	position: relative;
 	left: 50%;
 	top: 10px;
-	
 	color: red;
 }
 
@@ -51,38 +50,28 @@
 	color: black;
 }
 
-
-.calltoaction {
+.buynow {
+	display: block;
 	width: 300px;
 	height: 40px;
+	border: solid black 1px;
 	background-color: red;
-	border: solid black 2px;
-
 	position: relative;
 	left: 46%;
 	top: 30px;
-	transition: 0.5s;
-}
 
-
-.calltoaction:hover {
-	background-color: black;
-	transition: 0.5s;
-}
-
-
-.buynow {
 	font-family: "Golor var";
 	font-weight: 600;
 	font-size: 30px;
 	letter-spacing: .5px;
+	line-height: 40px;
 	color: white;
 	text-align: center;
 	text-decoration: none;
-
-	position: absolute;
-	padding: 5px;
-	height: 40px;
-	width: 300px;
+	transition: 0.5s;
 }
 
+.buynow:hover {
+	background-color: black;
+	transition: 0.5s;
+}
